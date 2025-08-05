@@ -1,0 +1,6 @@
+--- Log Report in /home/mint/Git/DevOpsBootcamp/Linux/Shell/LogReport ---
+Files found: 2
+Total files size: 8.0K	total
+Top 5 files by size:
+File: a.log	Size: 0M
+File: b.log	Size: 0M

@@ -1,0 +1,13 @@
+[Unit]
+Description=Greeter Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/greeter.sh
+Restart=always
+RestartSec=10
+StandardOutput=append:/var/log/greeter.log
+StandardError=append:/var/log/greeter.log
+
+[Install]
+WantedBy=multi-user.target

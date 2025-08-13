@@ -1,0 +1,13 @@
+[Unit]
+Description=Servicio personalizado que dice hola
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/test_service.sh
+Restart=always
+RestartSec=3
+StandardOutput=append:/var/log/test_service.log
+StandardError=append:/var/log/test_service.log
+
+[Install]
+WantedBy=multi-user.target

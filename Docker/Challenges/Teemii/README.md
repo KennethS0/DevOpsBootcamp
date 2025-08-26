@@ -37,7 +37,7 @@ We can run all these commands automatically by creating a configuration file wit
 We can validate the frontend to see if it is running by accessing the browser at `http://localhost:8080`, if there is nothing then we can check the logs to see if the backend service was up and running or if we suddenly lost connection.
 
 In case the backend service is not up when trying to execute the frontend container, then the application will not be able to run and will show something similar to this in the logs: 
-![Debug Log](images/frontend_logs.png)
+![Debug Log](images/frontend-logs.png)
 
 If there is a sudden loss of connection with the backend service, but we were able to access the web browser application then we will not be able to continue using the app. It will show these error messages in the browser:
 ![Debug Connection](images/frontend-debug.png)

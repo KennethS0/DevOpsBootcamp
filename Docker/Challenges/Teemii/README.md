@@ -1,5 +1,5 @@
 # Teemii
-Teemii is a web application that developed by a third party, it is used to manage information of different mangas.
+Teemii is a web application developed by a third party, it is used to manage information of different mangas.
 
 The focus of this challenge is to demonstrate the capabilities of Docker, by being able to run both of the containers by manually running them or doing it automatically through `docker compose`.
 

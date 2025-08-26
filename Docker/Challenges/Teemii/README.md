@@ -68,4 +68,7 @@ By executing the commands `docker inspect teemii-frontend` and `docker inspect t
 |Reproducibility | Requires a step by step approach to create all the necessary volumes and networks before creating the containers. | You just need to create a configuration once and then it will be able to run with a single command. |
 |Dependency Management| Requires dependencies to be up an running before creating the container. | Can easily manage dependencies. |
 |Development| More difficult to create multi-container production-like environments. | Allows you to replicate production-like environments with ease.|
-| Testing | Better for single service testing, running ephemeral tools and building custom images for deployment. | Better for testing multi-container apps and replicating environments locally. | 
+| Testing | Better for single service testing, running ephemeral tools and building custom images for deployment. | Better for testing multi-container apps and replicating environments locally. |
+
+## Clean Up
+A small script called `cleanup.sh` was created in order to remove everything created by the apps like the Network, volume and both containers.

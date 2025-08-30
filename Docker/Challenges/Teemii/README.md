@@ -8,7 +8,7 @@ Teemii consists of *2 different components*.
 ### Frontend
 The published image can be found [here](https://hub.docker.com/r/dokkaner/teemii-frontend). In order to have access to the frontend we need to map a port to the port 80 inside of the container. It is also required to have the backend running for this application to be functional.
 
-### Backed
+### Backend
 The published image can be found [here](https://hub.docker.com/r/dokkaner/teemii-backend). The backend works through ports 3000 (REST API connection) and port 1555 (Web Sockets connection). Which means that the front end needs to be able to see these ports, but they will not be exposed to the public. The backend also requires persistent data which lives in `/data`.
 
 ## Manual Implementation

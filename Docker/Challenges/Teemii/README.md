@@ -58,6 +58,9 @@ If everything was set up properly then the application can be accessed properly 
 
 ![Manga Menu](images/website.png)
 
+### Volume
+Volumes allow the application to maintain data persistently, you can see a video demonstration of how it works with Teemii [here](https://www.youtube.com/watch?v=-wObNDhRJ2Q).
+
 ### Additional Verifications
 By executing the commands `docker inspect teemii-frontend` and `docker inspect teemii-backend`, we can see all the attributes and configurations that the container has. This way we can verify the image, environment variables, ports, networks and volumes (may appear as 'Mounts'), etc..., being used by the container.
 

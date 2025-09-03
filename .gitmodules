@@ -1,3 +1,6 @@
 [submodule "Linux/Challenges/Linux-Intruder-Alert"]
 	path = Linux/Challenges/Linux-Intruder-Alert
 	url = https://github.com/KennethS0/Linux-Intruder-Alert.git
+[submodule "Servers/Web-Load-Balancers"]
+	path = Servers/Web-Load-Balancers
+	url = https://github.com/KennethS0/Web-Load-Balancers
